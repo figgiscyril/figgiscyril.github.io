@@ -1,0 +1,60 @@
+body {
+	max-width: 600px;
+	margin: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.subtitle {
+	color: rgb(54, 54, 54);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.825rem;
+}
+
+h1, h2 {
+  font-family: "Ledger", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-style: italic;
+  margin: 0;
+}
+
+img {
+	border-radius: 100%;
+	margin-right: 2rem;
+	width: 200px;
+}
+
+li, p {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1rem;
+}
+
+header {
+	display: flex;
+	padding: 3rem 0;
+}
+
+.summary__text {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+section {
+	border-top: 1px solid #DFDFDF;
+	padding: 1.5rem 0;
+}
+
+h3 {
+	display: flex;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+
+h3 span:last-of-type {
+	font-weight: normal;
+}
