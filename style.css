@@ -5,7 +5,7 @@ body {
 	padding-left: 1rem;
 }
 
-.subtitle {
+.subtitle, footer p {
 	color: rgb(54, 54, 54);
   font-family: "Open Sans", sans-serif;
   font-size: 0.825rem;
@@ -43,7 +43,7 @@ header {
 	justify-content: space-between;
 }
 
-section {
+section, footer {
 	border-top: 1px solid #DFDFDF;
 	padding: 1.5rem 0;
 }
@@ -57,4 +57,8 @@ h3 {
 
 h3 span:last-of-type {
 	font-weight: normal;
+}
+
+footer p {
+	text-align: right;
 }
